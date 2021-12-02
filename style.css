@@ -1,0 +1,246 @@
+* {
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #212221;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+  font-size: 18px;
+  color: #fbb040;
+}
+
+.navbar-toggler-icon {
+  color: white;
+
+}
+
+
+.nav-link {
+  color: white;
+}
+
+.navbarfloat {
+  justify-content: right;
+  float: right;
+}
+
+.gmap_canvas {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+}
+
+#main div {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: white;
+}
+
+.bg-section {
+    position: relative;
+    background-color: #212221;
+}
+
+.bg-aboutMe div {
+    position: relative;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.bg-aboutMe h5 {
+  padding: none;
+    background-color: white;
+    opacity: 50%;
+}
+
+.bg-aboutMe h2 {
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    background-color: white;
+}
+
+.bg-aboutMe #numbers h3 {
+  color: #1181B2;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.bg-aboutMe #aboutMeText {
+  padding: 10px;
+}
+
+#clientImage {
+  filter: grayscale(100%);
+  opacity: 0.2;
+  align-content: center;
+}
+
+.bg-services {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bg-services h5 {
+  padding: none;
+    background-color: white;
+    opacity: 50%;
+}
+
+.bg-services h2 {
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    background-color: white;
+}
+
+#services div {
+  padding: 100px;
+}
+
+
+
+/*HIRE ME BUTTON*/
+.btn-primary {
+  font-size: 16px;
+  background-color: white;
+  border-style: none;
+  color: #212221;
+  font-weight: bold;
+  border-radius: 2rem;
+  padding-top: 15px;
+    padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.left-side {
+  font-size: 100px;
+  font-style: bold;
+
+}
+
+.card {
+  width: auto;
+  height: auto;
+  margin-top: 15px;
+}
+
+.card-title {
+  color: #44449B;
+  font-weight: bold;
+}
+
+
+#portfolio h5 {
+  padding: none;
+    background-color: white;
+    opacity: 50%;
+}
+
+#portfolio h2 {
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    background-color: white;
+}
+
+.featurette-heading {
+    margin-top: 3rem;
+}
+
+.featurette2 {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.btnproj {
+  color: bg-primary;
+}
+
+.testiclass h5 {
+  padding: none;
+    background-color: white;
+    opacity: 50%;
+}
+
+.testiclass h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    background-color: white;
+}
+
+.testiclass h4 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    background-color: white;
+}
+
+.testiclass p {
+    font-size: 14px;
+}
+
+#testimonials {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: center;
+  text-align: center;
+}
+
+.feedback {
+  margin-top: 50px;
+}
+
+.fa-star {
+  color: #1181B2;
+}
+
+.contactme {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.contactme h5 {
+  padding: none;
+    background-color: white;
+    opacity: 50%;
+    text-align: center;
+}
+
+.contactme h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    background-color: white;
+        text-align: center;
+}
+
+#contactText1 {
+  background-color: none !important; 
+}
+
+
+/*FOOTER*/
+#footer {
+  background-color: #212221;
+}
+
+.fa {
+  color: white;
+}

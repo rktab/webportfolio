@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+	
+	<!-- External CSS (style.css file) -->
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Google Font -->
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+
+	<title>RK Tabucol | Software Engineer</title>
+
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar sticky-top navbar-expand-lg navbar-bg">
+		<a class="navbar-brand" href="index.html">RK Tabucol</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- End of Navbar -->
+
+
+		<!-- PORTFOLIO -->
+		<div class="contactme container" id="contact">
+				<h5>CONTACT ME</h5>
+				<h2>Have something in mind? Let's Connect!</h2>
+
+				<hr class="featurette-divider py-3">
+			<div class="row">
+				
+
+		     <!-- CONTACT US -->
+            <div class="col-xs-12 col-md-12 col-lg-6 p-2">
+                <h2 class="text-center" id="contactText1">Contact Us</h2>
+                <form>
+                    <!-- Text Input -->
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Name" class="form-control">
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="email" >Email:</label>
+                        <input type="email" name="email" id="email" placeholder="email@gmail.com" class="form-control">
+                    </div>
+
+                    <!-- Types of Services-->
+                    <div class="form-group">
+                        <label for="services">Services to Avail:</label>
+                        <select type="text" name="name" id="services" placeholder="Name" class="form-control">
+                            <option>Full-stack Development</option>
+                            <option>Application Maintenance</option>
+                            <option>Quality Assurance Testing</option>
+                            <option>Web Hosting</option>
+                        </select>
+                    </div>
+
+                    <!-- Textarea -->
+                    <div class="form-group">
+                        <label for="txt-area">Message</label>
+                        <textarea type="text" name="txt-area" id="txt-area" placeholder="message here..." class="form-control"></textarea>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-success float-left" data-toggle="modal" data-target="#contactBtn">Submit</button>
+                        </div>
+                    </div>
+
+                <!-- Modal For Submission -->
+                <div id="contactBtn" tabindex = "-1" aria-labelledby="contactBtn" aria-hidden="true" class="modal fade ">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 id="contactBtn" class="modal-title">Thank you for your inquiry!</h5>
+                                    <button type="button" data-dismiss="modal" aria-Label="close" class="close text-danger">
+                                        <span>&times;</span>
+                                    </button>
+                            </div>
+                        </div>
+                <!-- end of modal header -->
+
+                <div class="modal-body bg-light ">
+                     Message Successfuly sent!
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-outline-secondary">Close</button>
+                </div>
+                <!-- end of modal footer -->
+
+                    </div>
+                </div>
+                <!-- end of modal -->
+
+            </form>
+			</div>
+
+			<div class="col-xs-12 col-md-12 col-lg-6 p-3">
+		            <h2 class="text-center">Find Us!</h2>
+		                
+		            <div class="mapouter center">
+		            	<div class="gmap_canvas">
+		            		<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Bacoor%20Cavite&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+		            			
+		            		</iframe>
+		            		<br><style>.mapouter{position:relative;text-align:right;height:auto;width:auto;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important; height: 300px}</style></div></div>
+		        </div>
+				 
+        </div>
+		
+</div>
+
+
+	<!-- Footer -->
+	<footer class="p-3 mt-5" id="footer">
+			
+
+			<div style="text-align: center;" id="socialMediaBtn">
+				<!-- Facebook -->
+				<a class="btn" href="https://www.facebook.com/rkgreneidt/">
+					<i class="fa fa-facebook-square fa-2x"></i>
+				</a>
+
+				<!-- LinkedIn -->
+				<a class="btn" href="https://www.linkedin.com/in/rktabucol/">
+					<i class="fa fa-linkedin-square fa-2x"></i>
+				</a>
+
+				<!-- GitLab -->
+				<a class="btn" href="https://gitlab.com/reneikthrn-zuitt-projects/b145">
+					<i class="fa fa-gitlab fa-2x"></i>
+				</a>
+			</div>
+
+		<p class="text-center text-white">For educational purposes only.</p>
+			<p class="text-center text-white">
+				This website has been designed by <b>Renei Katherine Tabucol</b> as a project for Zuitt Bootcamp's Capstone 1.
+			</p>
+		
+	</footer>
+	<!-- End of Footer -->
+
+
+	<!-- JS Dependecies -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/7a46a783b9.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

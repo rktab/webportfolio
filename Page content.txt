@@ -1,0 +1,94 @@
+------ HOME ------
+Hey, I'm a Full-Stack Web Developer. (Picture on the right)
+
+Hi! I'm Renei Katherine Tabucol, a full-stack web developer based in Philippines. Let's build something amazing together!
+
+HIRE ME! [message icon]
+
+<line break>
+
+------ ABOUT ------
+<left column>
+NICE TO MEET YOU.
+Hey, I'm Renei, Full-Stack Web Developer
+<p> about me </p>
+
+<right column>
+Trusted by the fastest growing company
+5+
+Years of Experience
+
+20+
+Projects Completed
+
+10+
+Happy Clients
+
+<logo of dummy clients>
+
+------ SERVICES ------
+MY SKILLS
+Services
+
+> Full-stack Development
+> Application Maintenance
+> Quality Assurance Testing
+> Web Hosting
+
+
+------ PORTFOLIO ------
+PORTFOLIO
+Bringing outstanding results for every client.
+
+<cards 1 row - 3 divs>
+PROJECT 1
+[View Code] [Live Preview]
+
+PROJECT 2
+[View Code] [Live Preview]
+
+PROJECT 3
+[View Code] [Live Preview]
+
+
+<cards 1 row - 3 divs>
+PROJECT 4
+[View Code] [Live Preview]
+
+PROJECT 5
+[View Code] [Live Preview]
+
+PROJECT 6
+[View Code] [Live Preview]
+
+[VIEW ALL PROJECTS ->] *right most
+
+
+------ COMPANIES ------
+COMPANIES
+CUSTOMERS & CLIENTS
+
+10 DUMMY LOGOS (BLACK & WHITE)
+5/column
+5/column
+
+
+
+------ TESTIMONIALS ------
+Hear it directly from my clients.
+
+<carousel>
+2 per column
+
+
+
+------ EXTRA SECTION -------
+1st Column:
+My journey, career highlights and everything else you need to know! [SEE FULL RESUME]
+
+
+
+------ CONTACT ME -------
+CONTACT ME
+Have something in mind? Let's connect!
+<form>
