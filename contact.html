@@ -14,68 +14,65 @@
 	<!-- Google Font -->
 	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
-
 	<title>RK Tabucol | Software Engineer</title>
-
 </head>
 <body>
-
-	<!-- Navbar -->
-	<nav class="navbar sticky-top navbar-expand-lg navbar-bg">
+	<!-- Navbar Start -->
+	<nav class="navbar sticky-top navbar-expand-lg">
+		<!-- Navbar Brand -->
 		<a class="navbar-brand" href="index.html">RK Tabucol</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-		</button>
-		
-		<div class="collapse navbar-collapse">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">Services</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">Portfolio</a>
-				</li>
-				<li class="nav-item">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon">
+		    	<i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+		    </span>
+		  </button>
+		<!-- Navbar List -->
+		<div class="navbarfloat collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav">
+		    	<li class="nav-item active">
+		        	<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+		      	</li>
+		      	<li class="nav-item">
+		        	<a class="nav-link" href="#index.html">About</a>
+		      	</li>
+		     	<li class="nav-item">
+		        	<a class="nav-link" href="index.html">Services</a>
+		      	</li>
+		      	<li class="nav-item">
+		       		<a class="nav-link" href="index.html">Portfolio</a>
+		      	</li>
+		      	<li class="nav-item">
 					<a class="nav-link" href="contact.html">Contact</a>
 				</li>
-			</ul>
-		</div>
+		    </ul>
+	  	</div>
 	</nav>
 	<!-- End of Navbar -->
 
 
-		<!-- PORTFOLIO -->
-		<div class="contactme container" id="contact">
-				<h5>CONTACT ME</h5>
-				<h2>Have something in mind? Let's Connect!</h2>
-
-				<hr class="featurette-divider py-3">
-			<div class="row">
-				
-
-		     <!-- CONTACT US -->
+	<!-- Contact Start -->
+	<div class="contactme container" id="contact">
+		<h5>CONTACT ME</h5>
+		<h2>Have something in mind? Let's Connect!</h2>
+		<!-- Thematic Break -->
+		<hr class="featurette-divider py-3">
+		
+		<div class="row">
+			<!-- Left Column: Contact Us -->
             <div class="col-xs-12 col-md-12 col-lg-6 p-2">
-                <h2 class="text-center" id="contactText1">Contact Us</h2>
-                <form>
-                    <!-- Text Input -->
+            <h2 class="text-center" id="contactText1">Contact Us</h2>
+            	<form>
+                	<!-- Name -->
                     <div class="form-group">
                         <label for="name">Name:</label>
                         <input type="text" name="name" id="name" placeholder="Name" class="form-control">
                     </div>
-
-                    <!-- Email -->
+                	<!-- Email -->
                     <div class="form-group">
                         <label for="email" >Email:</label>
                         <input type="email" name="email" id="email" placeholder="email@gmail.com" class="form-control">
                     </div>
-
-                    <!-- Types of Services-->
+                    <!-- Types of Services (Dropdown) -->
                     <div class="form-group">
                         <label for="services">Services to Avail:</label>
                         <select type="text" name="name" id="services" placeholder="Name" class="form-control">
@@ -85,91 +82,82 @@
                             <option>Web Hosting</option>
                         </select>
                     </div>
-
                     <!-- Textarea -->
                     <div class="form-group">
                         <label for="txt-area">Message</label>
                         <textarea type="text" name="txt-area" id="txt-area" placeholder="message here..." class="form-control"></textarea>
                     </div>
-
-                    <!-- Button -->
+                    <!-- Submit Button -->
                     <div class="row">
                         <div class="col-md-6">
                             <button type="button" class="btn btn-success float-left" data-toggle="modal" data-target="#contactBtn">Submit</button>
                         </div>
                     </div>
-
+                
                 <!-- Modal For Submission -->
                 <div id="contactBtn" tabindex = "-1" aria-labelledby="contactBtn" aria-hidden="true" class="modal fade ">
                     <div class="modal-dialog">
+                    	<!-- Modal Header -->
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 id="contactBtn" class="modal-title">Thank you for your inquiry!</h5>
-                                    <button type="button" data-dismiss="modal" aria-Label="close" class="close text-danger">
-                                        <span>&times;</span>
-                                    </button>
+                            <h5 id="contactBtn" class="modal-title">Thank you for your inquiry!</h5>
+                                <button type="button" data-dismiss="modal" aria-Label="close" class="close text-danger">
+                                    <span>&times;</span>
+                                </button>
                             </div>
                         </div>
-                <!-- end of modal header -->
-
-                <div class="modal-body bg-light ">
-                     Message Successfuly sent!
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" data-dismiss="modal" class="btn btn-outline-secondary">Close</button>
-                </div>
-                <!-- end of modal footer -->
-
+                		<!-- Modal Body -->
+                		<div class="modal-body bg-light ">
+                    		Message Successfuly sent!
+                		</div>
+                		<!-- Modal Footer -->
+		                <div class="modal-footer">
+		                    <button type="button" data-dismiss="modal" class="btn btn-outline-secondary">Close</button>
+		                </div>
                     </div>
                 </div>
-                <!-- end of modal -->
-
-            </form>
+                <!-- End of Modal -->
+            	</form>
 			</div>
 
+			<!-- Right Column: Find Us! (Google Map) -->
 			<div class="col-xs-12 col-md-12 col-lg-6 p-3">
-		            <h2 class="text-center">Find Us!</h2>
-		                
-		            <div class="mapouter center">
+		        <h2 class="text-center">Find Us!</h2>
+		           	<div class="mapouter center">
 		            	<div class="gmap_canvas">
-		            		<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Bacoor%20Cavite&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-		            			
-		            		</iframe>
-		            		<br><style>.mapouter{position:relative;text-align:right;height:auto;width:auto;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important; height: 300px}</style></div></div>
-		        </div>
-				 
-        </div>
-		
-</div>
+		            		<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Bacoor%20Cavite&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+		            		<br><style>.mapouter{position:relative;text-align:right;height:auto;width:auto;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important; height: 300px}</style>
+		            	</div>
+		            </div>
+		    </div>
+		</div>
+		<!-- End of Row -->
+	</div>
+	<!-- End of Contact -->
 
 
-	<!-- Footer -->
+	<!-- Footer Start -->
 	<footer class="p-3 mt-5" id="footer">
-			
-
-			<div style="text-align: center;" id="socialMediaBtn">
+		<!-- Social Media Accounts (Icons) -->
+		<div style="text-align: center;" id="socialMediaBtn">
+			<p class="text-center text-white">Let's Connect!</p>
 				<!-- Facebook -->
 				<a class="btn" href="https://www.facebook.com/rkgreneidt/">
 					<i class="fa fa-facebook-square fa-2x"></i>
 				</a>
-
 				<!-- LinkedIn -->
 				<a class="btn" href="https://www.linkedin.com/in/rktabucol/">
 					<i class="fa fa-linkedin-square fa-2x"></i>
 				</a>
-
 				<!-- GitLab -->
 				<a class="btn" href="https://gitlab.com/reneikthrn-zuitt-projects/b145">
 					<i class="fa fa-gitlab fa-2x"></i>
 				</a>
-			</div>
-
-		<p class="text-center text-white">For educational purposes only.</p>
+		</div>
+		<!-- Additional Footer Text -->
 			<p class="text-center text-white">
 				This website has been designed by <b>Renei Katherine Tabucol</b> as a project for Zuitt Bootcamp's Capstone 1.
 			</p>
-		
 	</footer>
 	<!-- End of Footer -->
 
@@ -180,6 +168,5 @@
 
 	<!-- fontawesome -->
 	<script src="https://kit.fontawesome.com/7a46a783b9.js" crossorigin="anonymous"></script>
-
 </body>
 </html>
