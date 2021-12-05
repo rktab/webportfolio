@@ -1,7 +1,10 @@
+/* Universal Style */
 * {
   font-size: 16px;
 }
 
+
+/* Navbar Section */
 .navbar {
   background-color: #212221;
 }
@@ -14,9 +17,7 @@
 
 .navbar-toggler-icon {
   color: white;
-
 }
-
 
 .nav-link {
   color: white;
@@ -31,6 +32,29 @@
   text-align: center;
 }
 
+
+/* HIRE ME! Button (Home Page) */
+.btn-primary {
+  font-size: 16px;
+  background-color: white;
+  border-style: none;
+  color: #212221;
+  font-weight: bold;
+  border-radius: 2rem;
+  padding-top: 15px;
+    padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.left-side {
+  font-size: 100px;
+  font-style: bold;
+
+}
+
+
+/* Body */
 h1 {
   font-weight: 900;
 }
@@ -40,6 +64,8 @@ body {
   font-size: 22px;
 }
 
+
+/* About Me Section */
 #main div {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -87,6 +113,8 @@ body {
   align-content: center;
 }
 
+
+/* Services Section */
 .bg-services {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -109,28 +137,7 @@ body {
   padding: 100px;
 }
 
-
-
-/*HIRE ME BUTTON*/
-.btn-primary {
-  font-size: 16px;
-  background-color: white;
-  border-style: none;
-  color: #212221;
-  font-weight: bold;
-  border-radius: 2rem;
-  padding-top: 15px;
-    padding-bottom: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.left-side {
-  font-size: 100px;
-  font-style: bold;
-
-}
-
+/* List of Services */
 .card {
   width: auto;
   height: auto;
@@ -143,6 +150,7 @@ body {
 }
 
 
+/* My Portfolio Section */
 #portfolio h5 {
   padding: none;
     background-color: white;
@@ -169,13 +177,15 @@ body {
   color: bg-primary;
 }
 
-.testiclass h5 {
+
+/* Testimonial Section */
+.clientsTestimonials h5 {
   padding: none;
     background-color: white;
     opacity: 50%;
 }
 
-.testiclass h2 {
+.clientsTestimonials h2 {
     padding-top: 10px;
     font-size: 30px;
     font-weight: 900;
@@ -183,7 +193,7 @@ body {
     background-color: white;
 }
 
-.testiclass h4 {
+.clientsTestimonials h4 {
     padding-top: 10px;
     font-size: 20px;
     font-weight: 900;
@@ -191,7 +201,7 @@ body {
     background-color: white;
 }
 
-.testiclass p {
+.clientsTestimonials p {
     font-size: 14px;
 }
 
@@ -210,33 +220,35 @@ body {
   color: #1181B2;
 }
 
-.contactme {
+
+/* Contact Page */
+.contactUs {
   padding-top: 80px;
   padding-bottom: 20px;
 }
 
-.contactme h5 {
+.contactUs h5 {
   padding: none;
-    background-color: white;
-    opacity: 50%;
-    text-align: center;
+  background-color: white;
+  opacity: 50%;
+  text-align: center;
 }
 
-.contactme h2 {
+.contactUs h2 {
     padding-top: 10px;
     font-size: 30px;
     font-weight: 900;
     position: relative;
     background-color: white;
-        text-align: center;
+    text-align: center;
 }
 
-#contactText1 {
+#contactUsTitle {
   background-color: none !important; 
 }
 
 
-/*FOOTER*/
+/* Footer Section */
 #footer {
   background-color: #212221;
 }
