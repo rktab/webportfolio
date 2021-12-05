@@ -117,20 +117,21 @@ body {
 /* Services Section */
 .bg-services {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
+}
+
+.bg-services h2 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 900;
+  position: relative;
+  background-color: white;
 }
 
 .bg-services h5 {
   padding: none;
-    background-color: white;
-    opacity: 50%;
-}
-
-.bg-services h2 {
-    font-size: 50px;
-    font-weight: 900;
-    position: relative;
-    background-color: white;
+  background-color: white;
+  opacity: 50%;
 }
 
 #services div {
@@ -139,12 +140,15 @@ body {
 
 /* List of Services */
 .card {
-  width: auto;
-  height: auto;
-  margin-top: 15px;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: auto;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 .card-title {
+  padding-top: 15px;
   color: #44449B;
   font-weight: bold;
 }
@@ -153,19 +157,19 @@ body {
 /* My Portfolio Section */
 #portfolio h5 {
   padding: none;
-    background-color: white;
-    opacity: 50%;
+  background-color: white;
+  opacity: 50%;
 }
 
 #portfolio h2 {
-    font-size: 30px;
-    font-weight: 900;
-    position: relative;
-    background-color: white;
+  font-size: 30px;
+  font-weight: 900;
+  position: relative;
+  background-color: white;
 }
 
 .featurette-heading {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .featurette2 {
@@ -181,28 +185,28 @@ body {
 /* Testimonial Section */
 .clientsTestimonials h5 {
   padding: none;
-    background-color: white;
-    opacity: 50%;
+  background-color: white;
+  opacity: 50%;
 }
 
 .clientsTestimonials h2 {
-    padding-top: 10px;
-    font-size: 30px;
-    font-weight: 900;
-    position: relative;
-    background-color: white;
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: 900;
+  position: relative;
+  background-color: white;
 }
 
 .clientsTestimonials h4 {
-    padding-top: 10px;
-    font-size: 20px;
-    font-weight: 900;
-    position: relative;
-    background-color: white;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  position: relative;
+  background-color: white;
 }
 
 .clientsTestimonials p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 #testimonials {
@@ -217,7 +221,7 @@ body {
 }
 
 .fa-star {
-  color: #1181B2;
+  color: #fbb040;
 }
 
 
@@ -235,12 +239,12 @@ body {
 }
 
 .contactUs h2 {
-    padding-top: 10px;
-    font-size: 30px;
-    font-weight: 900;
-    position: relative;
-    background-color: white;
-    text-align: center;
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: 900;
+  position: relative;
+  background-color: white;
+  text-align: center;
 }
 
 #contactUsTitle {
